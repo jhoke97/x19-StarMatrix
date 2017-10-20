@@ -7,8 +7,9 @@ int main()
 {
   int rows;
   int columns;
-  cout << "Enter rows and columns of stars:";
-  cin >> rows >> columns;
+  cout << "Enter rows and columns of stars:\n";
+  cin >> rows;
+  cin >> columns;
   vector< vector <char> > matrix(rows, vector <char> (columns));
   for(int i = 0; i < matrix.size(); i++)
   {
